@@ -53,3 +53,9 @@ php Paddle.php
 
 
 
+**chrome扩展下载:** 
+
+```shell
+git clone  git@github.com:liuxing1234/LogWatcher.git
+```
+
