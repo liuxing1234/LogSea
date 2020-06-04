@@ -1,0 +1,20 @@
+{
+    "name": "logsea/paddle",
+    "description": "a paddle for log watcher",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "liuxing"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LogSea\\": "src/"
+        }
+    }
+}
