@@ -43,7 +43,11 @@ php Paddle.php
 
 使用websocket服务可以单独跑,或者可以使用配套的谷歌扩展进行日志信息的预览功能:
 
+![skin](./screenshot/skin.png)
+
 后台服务启动以后,打开chrome,点击插件,填写服务信息,点击`Login`,然后打开F12进入调试模式:
+
+![skin](./screenshot/console.png)
 
 控制面板多出一个watcher的选项卡,推送的json字符串日志信息,会自动格式化,并可以折叠,点击清理,可以清理屏幕.
 
