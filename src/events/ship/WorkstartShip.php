@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2020/6/1
- * Time: 15:16
- */
 
 namespace LogSea\events\ship;
 

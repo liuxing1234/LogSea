@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2020/6/3
- * Time: 17:53
- */
+
 
 namespace LogSea\config;
 
@@ -19,7 +14,7 @@ class OptionPaddle extends Option
     public static $port = 4002;
     public static $option=[
         "worker_num"=>4,
-        "daemonize" => 0
+        "daemonize" => 1
     ];
     public static $events = [
         "connect"=>ConnectPaddle::class,

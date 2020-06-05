@@ -1,14 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2020/6/3
- * Time: 17:53
- */
-
 namespace LogSea\config;
 
-use LogSea\Demo;
 use LogSea\events\ship\CloseShip;
 use LogSea\events\ship\MessageShip;
 use LogSea\events\ship\OpenShip;
@@ -21,7 +13,7 @@ class OptionShip extends Option
     public static $port = 4000;
     public static $option=[
         "worker_num"=>1,
-        "daemonize" => 0
+        "daemonize" => 1
     ];
 
     public static $events = [

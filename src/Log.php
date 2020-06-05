@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2020/6/4
- * Time: 14:59
- */
+
 
 namespace LogSea;
 
